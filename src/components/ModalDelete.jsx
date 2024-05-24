@@ -30,7 +30,7 @@ export const ModalDelete = ({ isOpen, onClose }) => {
           <ModalBody pb={6}>
             <p>
               ¿Seguro desea eliminar el proyecto?
-              <strong>{currentProject.name} </strong> ?
+              <strong>{currentProject.name} </strong>
             </p>
           </ModalBody>
           <ModalFooter>
