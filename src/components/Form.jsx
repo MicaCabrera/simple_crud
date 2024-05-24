@@ -11,7 +11,7 @@ import { useContext } from 'react'
 import { useForm } from 'react-hook-form'
 import { useNavigate } from 'react-router-dom'
 
-import { ProjectsContext } from '../context/projectsContext'
+import { ProjectsContext } from '../context/ProjectsContext'
 
 export const Form = () => {
   const { newProject, currentProject, editing, updateProject } =

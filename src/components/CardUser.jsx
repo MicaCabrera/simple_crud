@@ -25,7 +25,7 @@ import {
 import { useContext, useState } from 'react'
 import { Link } from 'react-router-dom'
 
-import { ProjectsContext } from '../context/projectsContext'
+import { ProjectsContext } from '../context/ProjectsContext'
 import { ModalDelete } from './ModalDelete'
 
 export const CardUser = () => {

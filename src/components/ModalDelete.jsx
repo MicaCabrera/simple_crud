@@ -10,7 +10,7 @@ import {
 } from '@chakra-ui/react'
 import { useContext } from 'react'
 
-import { ProjectsContext } from '../context/projectsContext'
+import { ProjectsContext } from '../context/ProjectsContext'
 
 export const ModalDelete = ({ isOpen, onClose }) => {
   const { deleteProject, currentProject } = useContext(ProjectsContext)

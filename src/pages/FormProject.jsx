@@ -11,7 +11,7 @@ import { useContext } from 'react'
 import { Link } from 'react-router-dom'
 
 import { Form } from '../components/Form'
-import { ProjectsContext } from '../context/projectsContext'
+import { ProjectsContext } from '../context/ProjectsContext'
 
 export const FormProject = () => {
   const { editing, changeEditing } = useContext(ProjectsContext)
