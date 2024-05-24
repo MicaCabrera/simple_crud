@@ -1,11 +1,4 @@
-import {
-  Box,
-  Button,
-  Container,
-  Divider,
-  Heading,
-  Image,
-} from '@chakra-ui/react'
+import { Box, Button, Container, Divider, Heading } from '@chakra-ui/react'
 import { Link } from 'react-router-dom'
 
 import { CardUser } from '../components/CardUser'
@@ -24,10 +17,6 @@ export const Home = () => {
       <Container pt={2}>
         <Container maxW="lg" bg="white" pt={2}>
           <Box>
-            <div>
-              <Image src="./images/logo.png" />
-            </div>
-
             <Divider color="gray.100" />
             <Box
               display="flex"

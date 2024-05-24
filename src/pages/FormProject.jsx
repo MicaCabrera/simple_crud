@@ -1,12 +1,5 @@
 import { ArrowBackIcon } from '@chakra-ui/icons'
-import {
-  Box,
-  Button,
-  Container,
-  Divider,
-  Heading,
-  Image,
-} from '@chakra-ui/react'
+import { Box, Button, Container, Divider, Heading } from '@chakra-ui/react'
 import { useContext } from 'react'
 import { Link } from 'react-router-dom'
 
@@ -35,10 +28,6 @@ export const FormProject = () => {
           p={1}
         >
           <Box>
-            <div>
-              <Image src="./images/logo.png" />
-            </div>
-
             <Divider color="gray.100" />
             <Box display="flex" justifyContent="left" alignItems="center">
               <Button
